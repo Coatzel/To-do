@@ -1,0 +1,24 @@
+//adds to list item
+
+$(document).ready(function(){
+$("#add").click(function() {
+	var my_input = $("#spacer").val();
+	var add_list = $(".todo").append(my_input).show();
+	
+
+
+
+})
+});
+
+// bug creates new ul otherwise decent adds input
+$(document).ready(function(){
+$("#add").click(function() {
+	var my_input = $("#spacer").val();
+	var add_list = $("#list").append('<li class="todo">'+my_input).show();
+	
+
+
+
+})
+});

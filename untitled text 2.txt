@@ -1,0 +1,14 @@
+$("#list").dblclick(function (e){
+  e.target.tagName
+  console.log(e.target);
+    
+	$(this).toggleClass("done")
+	
+	
+$("#list").dblclick(function (e){
+  console.log(e.target);
+  source = $(e.target);
+  if (source.tagName is 'li'){
+  	source.toggleClass("done")
+  }
+    });

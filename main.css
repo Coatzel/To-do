@@ -1,0 +1,100 @@
+ //* {
+ 	outline: 1px dashed red;*//
+}
+body {
+	background-clip: border-box;
+	background-size:cover;
+	background-color: transparent;
+	font-family: arial, sans-serif;
+	font-size: large;
+	color: #000000;
+	--webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+}
+p {
+	text-align: center;
+}
+
+#header {
+text-align: center;
+padding-bottom:10px;
+	
+}
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	height:110px;
+	width:333px;
+	background-color: rgb(223, 223, 223);
+	padding: 15px;
+	border-radius: 5px;
+	outline: red solid medium;
+
+}
+#spacer {
+	width: 75%;
+    clear: both;
+	display: inline;
+	border:5px;
+	margin:5px;
+	padding: 10px;
+}
+
+#spacer input {
+	
+	max-height: 50px;
+	background-size: 21px;
+	outline-color: blue;
+	outline-style: none;
+}
+
+img {
+	float:right;
+	padding-left: 10px;
+	height:80px;
+	width: 80px;
+}
+#add {
+	clear:both;
+    font-family: courier;
+	width:55px;
+	height:35px;
+	margin:10px;
+	margin-right: auto;
+	margin-left:auto;
+	display:block;
+	font-size: 15px;
+	background-color: white;
+	
+	
+}
+#clear{
+	margin-right: auto;
+	margin-left:auto;
+	font-family: courier;
+	width:55px;
+	height:35px;
+	margin:10px;
+	font-size: 11px;
+	background-color: white;
+}
+#list {
+	margin-right:auto;
+	margin-left:auto;
+	max-width: 166.5px;
+
+	margin-top:10px;
+	
+}
+#list li{
+	margin:10px;
+	background-color: rgb(223, 223, 223)
+
+}
+.todo{
+	
+}
+.done {
+	text-decoration: line-through;
+}
